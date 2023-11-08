@@ -1,6 +1,7 @@
 import React, {useState, useEffect} from 'react'
 import "../CSS/Navbar.css"
 import logo from "../pictures/logo.png"
+import logo2 from "../pictures/logo2.png"
 
 
 
@@ -38,14 +39,14 @@ const Navbar = () => {
     <nav className={color ? "navMain bg" : "navMain"}>
         <section className="navSection">
             <section className="navHalf">
-                <img src={logo} className='logo' />
+                <img src={logo2} className='logo' />
             </section>
             <section className="navHalf2">
-                <ul>
-                    <li>About me</li>
-                    <li>Resume</li>
-                    <li>Portfolio</li>
-                    <li>Contact</li>
+                <ul className='links'>
+                    <li><a>About me</a></li>
+                    <li><a>Resume</a></li>
+                    <li><a>Portfolio</a></li>
+                    <li><a>Contact</a></li>
                 </ul>
             </section>
         </section>

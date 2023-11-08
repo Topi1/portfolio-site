@@ -18,7 +18,8 @@
 }
 
 .navMain.bg {
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(10px);
     box-shadow: 0px 3px 10px black;
 }
 
@@ -52,7 +53,7 @@
     align-items: center;
 }
 
-.navHalf2 ul {
+.links {
     height: 100%;
     width: 100%;
     list-style-type: none;
@@ -62,8 +63,42 @@
     font-weight: bold;
 }
 
+.links a {
+    position: relative;
+}
+
+.links a:hover {
+    cursor: pointer;
+}
+
+.links a:after {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 3px;
+    display: block;
+    margin-top: 0px;
+    right: 0;
+    background: white;
+    transition: width .3s ease;
+    -webkit-transition: width .3s ease;
+}
+
+.links a:hover:after {
+    width: 100%;
+    left: 0;
+    background: white;
+}
+
 .logo {
-    height: 100px;
+    height: 115px;
     width: auto;
     align-self: flex-start;
+    transition: 0.3s;
+    border: 1px solid white;
+}
+
+.logo:hover {
+    
+    cursor: pointer;
 }
