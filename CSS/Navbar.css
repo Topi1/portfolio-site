@@ -39,16 +39,31 @@
     height: 100%;
     width: 50%;
     display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.navHalf2 {
+    font-size: 1.8rem;
+    height: 100%;
+    width: 50%;
+    display: flex;
     justify-content: space-evenly;
     align-items: center;
 }
 
-.navHalf ul {
+.navHalf2 ul {
     height: 100%;
     width: 100%;
     list-style-type: none;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    font-weight: bold;
 }
 
+.logo {
+    height: 100px;
+    width: auto;
+    align-self: flex-start;
+}
