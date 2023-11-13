@@ -1,5 +1,5 @@
 .footerMain {
-    width: 100%;
+    width: 100vw;
     height: 200px;
     background-color: rgba(0, 0, 0, 0.5);
     backdrop-filter: blur(10px);

@@ -1,0 +1,36 @@
+
+.secondpage {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+    box-shadow: 0px 3px 10px black;
+}
+
+.secondcontainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 1200px;
+    
+}
+
+.secondpageheader {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+    width: 50%;
+    color: white;
+    font-size: 2rem;
+}
+
+.secondpagespan {
+    display: flex;
+    width: 100%;
+    height: 60%;
+}

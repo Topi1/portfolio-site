@@ -12,12 +12,12 @@ const Navbar = () => {
 
         const changeColor = () => {
             console.log(window.scrollY)
-            if (window.scrollY >= 150) {
+            if (window.scrollY >= 100) {
                 setColor(true)
-                console.log("WORKS")
+                
             } else {
                 setColor(false)
-                console.log("AGAIN")
+                
             }
         }
     
@@ -43,6 +43,7 @@ const Navbar = () => {
             </section>
             <section className="navHalf2">
                 <ul className='links'>
+                    
                     <li><a>About me</a></li>
                     <li><a>Resume</a></li>
                     <li><a>Portfolio</a></li>
