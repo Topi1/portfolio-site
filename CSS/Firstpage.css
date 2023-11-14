@@ -108,7 +108,7 @@
 .welcomeartic {
     display: flex;
     flex-direction: column;
-    
+    color: rgb(221, 220, 220);
     
     height: 300px;
 }

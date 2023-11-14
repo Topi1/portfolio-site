@@ -6,6 +6,7 @@ import Footer from './Footer'
 import Firstpage from './Firstpage'
 import Secondpage from './Secondpage'
 import Thirdpage from './Thirdpage'
+import Portfolio from './Portfolio'
 import me from "../pictures/omakuva.png"
 
 
@@ -18,7 +19,7 @@ export default function MainSite() {
         <Firstpage></Firstpage>
         <Secondpage></Secondpage>
         <Thirdpage></Thirdpage>
-        
+        <Portfolio></Portfolio>
       </div>
     </div>
     <Footer></Footer>
