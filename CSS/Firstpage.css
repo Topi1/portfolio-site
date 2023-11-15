@@ -5,7 +5,7 @@
 .firstPage {
     display: flex;
     width: 100%;
-    height: calc("100vh-150px") !important;
+    height: 100vh;
 }
 
 
@@ -101,9 +101,6 @@
     color: rgb(221, 220, 220);
 }
 
-.nametwo h2 {
-    margin-left: 40px;
-}
 
 .welcomeartic {
     display: flex;

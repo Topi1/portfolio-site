@@ -4,6 +4,7 @@
     width: 100vw;
     min-height: 150px;
     display: flex;
+    position: fixed;
     align-items: center;
     justify-content: center;
     transition: 0.3s;
@@ -45,6 +46,10 @@
     align-items: center;
 }
 
+.navHalf a {
+    height: 115px;
+}
+
 .navHalf2 {
     font-size: 1.8rem;
     height: 100%;
@@ -66,6 +71,8 @@
 
 .links a {
     position: relative;
+    text-decoration: none;
+    color: rgb(221, 220, 220);
 }
 
 .links a:hover {
@@ -80,7 +87,7 @@
     display: block;
     margin-top: 0px;
     right: 0;
-    background: white;
+    background: rgb(221, 220, 220);
     transition: width .3s ease;
     -webkit-transition: width .3s ease;
 }
@@ -88,7 +95,7 @@
 .links a:hover:after {
     width: 100%;
     left: 0;
-    background: white;
+    background: rgb(221, 220, 220);
 }
 
 .logo {

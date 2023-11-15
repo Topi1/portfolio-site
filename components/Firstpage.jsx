@@ -4,7 +4,7 @@ import me from "../pictures/omakuva.png"
 
 export default function Firstpage() {
   return (
-    <section className="firstPage">
+    <section className="firstPage" id='home'>
           
           <section className="halfpage">
 

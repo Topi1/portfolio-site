@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bigshot+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sree+Krushnadevaraya&display=swap');
+
+
+.contactmain {
+    display: flex;
+    width: 1200px;
+    height: 30vh;
+    font-family: 'Sree Krushnadevaraya', serif;
+    color: rgb(221, 220, 220);
+}
+
+.contactheader{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40%;
+    height: 100%;
+    font-size: 3rem;
+}
+
+.contactspan {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+    height: 100%;
+    font-size: 2rem;
+}

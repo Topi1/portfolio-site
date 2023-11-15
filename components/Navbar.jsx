@@ -2,6 +2,7 @@ import React, {useState, useEffect} from 'react'
 import "../CSS/Navbar.css"
 import logo from "../pictures/logo.png"
 import logo2 from "../pictures/logo2.png"
+import { HashLink } from 'react-router-hash-link'
 
 
 
@@ -11,7 +12,7 @@ const Navbar = () => {
         const [color, setColor] = useState(false)
 
         const changeColor = () => {
-            console.log(window.scrollY)
+            
             if (window.scrollY >= 100) {
                 setColor(true)
                 
@@ -39,15 +40,17 @@ const Navbar = () => {
     <nav className={color ? "navMain bg" : "navMain"}>
         <section className="navSection">
             <section className="navHalf">
-                <img src={logo2} className='logo' />
+                <a href="#home">
+                    <img src={logo2} className='logo' />
+                </a>
             </section>
             <section className="navHalf2">
                 <ul className='links'>
                     
-                    <li><a>About me</a></li>
-                    <li><a>Resume</a></li>
-                    <li><a>Portfolio</a></li>
-                    <li><a>Contact</a></li>
+                    <li><a href='#about'>About me</a></li>
+                    <li><a href='#resume'>Resume</a></li>
+                    <li><a href='#portfolio'>Portfolio</a></li>
+                    <li><a href='"#contact'>Contact</a></li>
                 </ul>
             </section>
         </section>

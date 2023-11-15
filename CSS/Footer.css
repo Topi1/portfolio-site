@@ -1,11 +1,12 @@
 .footerMain {
     width: 100vw;
     height: 200px;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: black;
     backdrop-filter: blur(10px);
     margin-top: auto;
     bottom: 0;
     z-index: 3;
     align-self: center;
     justify-self: center;
+    box-shadow: 0px 3px 10px black;
 }
