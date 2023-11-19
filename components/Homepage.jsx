@@ -1,10 +1,10 @@
 import React from 'react'
-import "../CSS/Firstpage.css"
+import "../CSS/Homepage.css"
 import me from "../pictures/omakuva.png"
 
-export default function Firstpage() {
+export default function Homepage() {
   return (
-    <section className="firstPage" id='home'>
+    <section className="homePage" id='home'>
           
           <section className="halfpage">
 

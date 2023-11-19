@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Bigshot+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Sree+Krushnadevaraya&display=swap');
 
-.firstPage {
+.homePage {
     display: flex;
     width: 100%;
     height: 100vh;
@@ -45,10 +45,7 @@
     transition: 0.4s;
 }
 
-.nameonesec2:hover {
-    background-color: black;
-    color: rgb(221, 220, 220);
-}
+
 
 .nameone h1 {
     margin-right: 20px;
@@ -64,10 +61,11 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: rgb(221, 220, 220);
-    border: 2px solid black;
-    transition: 0.4s;
+    background-color: rgb(20, 20, 20);
     
+    
+    transition: 0.4s;
+    color: rgb(221, 220, 220)
 }
 
 .nametwo {
@@ -88,18 +86,17 @@
     align-items: center;
     justify-content: center;
     background-color: rgb(221, 220, 220);
-    border: 2px solid black;
+    
     transition: 0.4s;
+    box-shadow: 0px 3px 10px black;
+    color: rgb(20, 20, 20);
 }
 .nametwosec2 {
     height: 100%;
     width: 30%;
 }
 
-.nametwosec1:hover {
-    background-color: black;
-    color: rgb(221, 220, 220);
-}
+
 
 
 .welcomeartic {

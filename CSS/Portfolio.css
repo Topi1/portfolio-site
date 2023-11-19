@@ -33,6 +33,50 @@
 
 .portfoliospan {
     display: flex;
+    align-items: center;
+    justify-content: center;
     width: 100%;
     height: 60%;
+}
+
+.carouselmain {
+    margin: auto;
+    width: 80%;
+    
+}
+/*
+.carouseldiv {
+    height: 400px;
+    width: 100%;
+    color: rgb(221, 220, 220);
+    font-size: 1rem;
+    display: flex;
+    
+    align-items: center; 
+}*/
+
+.main-slide {
+    padding-top: 10px;
+    width: 300px;
+}
+
+.carousel .slider-wrapper {
+    width: 50%;
+    
+}
+
+.carousel .thumb {
+    width: 55px;
+    height: 50px;
+}
+
+.carousel {
+    text-align: center;
+    
+}
+
+.cimg {
+    height: 300px;
+    width: 300px;
+    aspect-ratio: 16/9;
 }

@@ -3,9 +3,9 @@ import "../CSS/MainSiteStyle.css"
 
 import Navbar from './Navbar'
 import Footer from './Footer'
-import Firstpage from './Firstpage'
-import Secondpage from './Secondpage'
-import Thirdpage from './Thirdpage'
+import Homepage from './Homepage'
+import Aboutpage from './Aboutpage'
+import Resume from './Resume'
 import Portfolio from './Portfolio'
 import Contact from './Contact'
 
@@ -23,9 +23,9 @@ export default function MainSite() {
 
         <Navbar/>
 
-            <Firstpage/>
-            <Secondpage/>
-            <Thirdpage/>
+            <Homepage/>
+            <Aboutpage/>
+            <Resume/>
             <Portfolio/>
             <Contact/>
           

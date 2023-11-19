@@ -1,9 +1,9 @@
 import React from 'react'
-import "../CSS/Thirdpage.css"
+import "../CSS/Resume.css"
 
 export default function Thirdpage() {
   return (
-    <section className="thirdpage" id='resume'>
+    <section className="resumepage" id='resume'>
         <header className="thirdpageheader">
             <h1>Resume</h1>
         </header>
