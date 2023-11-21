@@ -43,6 +43,8 @@ const Navbar = () => {
                 <a href="#home">
                     <img src={logo2} className='logo' />
                 </a>
+                <div className="line"></div>
+                {/*<hr width="60%" color="#292929" className='line'/>*/}
             </section>
             <section className="navHalf2">
                 <ul className='links'>

@@ -1,6 +1,9 @@
 import React from 'react'
 import "../CSS/Aboutpage.css"
 
+import me from "../pictures/omakuva2.jpg"
+import me2 from "../pictures/omakuva3.png"
+
 export default function Aboutpage() {
   return (
     <section className='aboutpage' id='about'>
@@ -9,11 +12,13 @@ export default function Aboutpage() {
                 <h1>About me</h1>
             </header>
             <span className="secondpagespan">
-              <section className="aboutsection"></section>
+              <section className="aboutsection">
+                <img src={me2} className='pic' />
+              </section>
               <section className="aboutsection">
                 <p>25-years old, Bachelor of Business Administration, Information Technologies. Fresh graduate from Vaasa University of Applied Sciences.</p>
                 <p>Looking for entry level job as Frontend developer.</p>
-                <p>I like stylish design.</p>
+                
               </section>
             </span>
         </div>
