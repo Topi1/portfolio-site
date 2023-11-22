@@ -53,17 +53,20 @@
     width: 90%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr min-content;
+    
     gap: 20px;
-    align-items: center;
-    justify-content: center;
+    
+    justify-items: center;
+    align-content: center;
     
 }
 
 .gimg {
     filter: grayscale(100%);
     transition: 0.4s;
-    max-height: 95px;
+    object-fit: cover;
+    
+    max-height: 90px;
     width: auto;
 }
 
@@ -71,10 +74,13 @@
     scale: 1.1;
     filter: grayscale(0%);
     
+    
 }
 
 .griddiv {
     position: relative;
+    margin: auto;
+    
 }
 
 .tooltip {
