@@ -32,6 +32,7 @@
     justify-content: center;
     height: 100%;
     width: 50%;
+    font-family: 'Sree Krushnadevaraya', serif;
 
     border-right: 2px;
     border-left: 0;
@@ -39,51 +40,82 @@
     border-image: linear-gradient(to bottom, #181818, #eee, #181818) 1 100%;
 }
 
+.rheader {
+    font-size: 2rem;
+}
+
 .resumehalf:last-child {
     border-right: 0;
 }
 
 .resumegrid {
-    height: 100%;
-    width: 100%;
+    height: 75%;
+    width: 90%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr min-content;
     gap: 20px;
     align-items: center;
+    justify-content: center;
     
 }
 
-.resumegrid img {
+.gimg {
     filter: grayscale(100%);
     transition: 0.4s;
     max-height: 95px;
     width: auto;
 }
 
-.resumegrid img:hover {
+.gimg:hover {
     scale: 1.1;
     filter: grayscale(0%);
     
 }
 
-.resumegrid img:hover .tooltip{
-    visibility: visible;
-    
+.griddiv {
+    position: relative;
 }
 
 .tooltip {
-    transition: 0.3s;
+    transition: 0.2s;
     visibility: hidden;
     font-family: 'Sree Krushnadevaraya', serif;
     border-radius: 10px;
     font-size: 1.5rem;
     font-weight: bold;
-    padding: 5px 0;
-    background-color: black;
-    color: #eee;
+    padding: 5px 3px;
+    background-color: rgb(20, 20, 20);
+    color: rgb(221, 220, 220);
     text-align: center;
+
     position: absolute;
+    bottom: 120%;
+    left: 50%;
+    margin-left: -50%;
     z-index: 3;
     min-width: 100px;
+    
     box-shadow: 0px 3px 10px black;
+    border-bottom: 2px solid #181818;
+}
+
+.gimg:hover + .tooltip{
+    visibility: visible;
+    
+}
+
+.eduarticle {
+    font-family: 'Bad Script', cursive;
+    font-size: 1.8rem;
+    width: 100%;
+    height: 75%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.eduarticle ul {
+    width: 80%;
 }

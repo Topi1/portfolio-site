@@ -15,7 +15,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 40%;
+    width: 50%;
     height: 100%;
     font-size: 3rem;
     text-decoration: underline;
@@ -23,9 +23,47 @@
 
 .contactspan {
     display: flex;
-    align-items: center;
+    flex-direction: column;
     justify-content: center;
-    width: 60%;
+    width: 50%;
     height: 100%;
     font-size: 2rem;
+
+    
+}
+
+.contactlink {
+    display: flex;
+    gap: 20px;
+    text-decoration: none;
+    color: rgb(221, 220, 220);
+    transition: 0.4s;
+}
+
+.contactlink:hover {
+    color: rgb(153, 215, 240);
+    text-decoration: underline;
+}
+
+.contactlink:hover .lilogo {
+    filter: grayscale(0);
+}
+
+.lilogo {
+    max-height: 50px;
+    width: auto;
+    justify-self: center;
+    align-self: center;
+
+    filter: grayscale(100%);
+    transition: 0.4s;
+}
+
+.email {
+    display: flex;
+    gap: 20px;
+}
+
+.email:hover .lilogo {
+    filter: grayscale(0);
 }

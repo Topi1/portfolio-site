@@ -1,6 +1,6 @@
 .footerMain {
     width: 100vw;
-    height: 200px;
+    height: 40vh;
     background-color: black;
     backdrop-filter: blur(10px);
     margin-top: auto;

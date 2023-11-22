@@ -23,65 +23,71 @@ export default function Thirdpage() {
         </header>
         <span className="thirdpagespan">
           <section className="resumehalf">
-            <h2>Techstack</h2>
+            <h2 className='rheader'>Techstack</h2>
             <div className="resumegrid">
               <div className="resumegrid">
 
                 <div className="griddiv">
-                  <img src={html} />
+                  <img src={html} className='gimg'/>
                   <span className="tooltip">HTML</span>
                 </div>
                 <div className="griddiv">
-                  <img src={css} />
-
+                  <img src={css} className='gimg'/>
+                  <span className="tooltip">CSS</span>
                 </div>
                 <div className="griddiv">
-                  <img src={js} />
-
+                  <img src={js} className='gimg'/>
+                  <span className="tooltip">JavaScript</span>
                 </div>
                 <div className="griddiv">
-                  <img src={reacticon} />
-
+                  <img src={reacticon} className='gimg'/>
+                  <span className="tooltip">React</span>
                 </div>
                 <div className="griddiv">
-                  <img src={c} />
-
+                  <img src={c} className='gimg'/>
+                  <span className="tooltip">C#</span>
                 </div>
                 <div className="griddiv">
-                  <img src={sql} />
-
+                  <img src={sql} className='gimg'/>
+                  <span className="tooltip">SQL</span>
                 </div>
                 <div className="griddiv">
-                  <img src={php} />
-                  
+                  <img src={php} className='gimg'/>
+                  <span className="tooltip">PHP</span>
                 </div>
                 <div className="griddiv">
-                  <img src={git} />
-
+                  <img src={git} className='gimg'/>
+                  <span className="tooltip">git</span>
                 </div>
                 <div className="griddiv">
-                  <img src={github} />
-
+                  <img src={github} className='gimg'/>
+                  <span className="tooltip">GitHub</span>
                 </div>
                 <div className="griddiv">
-                  <img src={npm} />
-
+                  <img src={npm} className='gimg'/>
+                  <span className="tooltip">npm</span>
                 </div>
                 <div className="griddiv">
-                  <img src={windows} />
-
+                  <img src={windows} className='gimg'/>
+                  <span className="tooltip">Windows</span>
                 </div>
                 <div className="griddiv">
-                  <img src={linux} />
-
+                  <img src={linux} className='gimg'/>
+                  <span className="tooltip">Linux</span>
                 </div>
 
               </div>
             </div>
           </section>
           <section className="resumehalf">
-            <h2>Education</h2>
-            
+            <h2 className='rheader'>Education</h2>
+            <article className='eduarticle'>
+              <ul>
+                <li>Vaasa University of Applied Sciences. Bachelor of Business Administration, Information Technologies. Graduated 10/2023.</li>
+                <li>Tampere University of Applied Sciences. Nurse. Discontinued.</li>
+                <li>Väinö Linnan Lukio (high scool)</li>
+              </ul>
+            </article>
           </section>
         </span>
     </section>
