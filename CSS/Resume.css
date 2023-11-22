@@ -24,3 +24,66 @@
     width: 100%;
     height: 60%;
 }
+
+.resumehalf {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 50%;
+
+    border-right: 2px;
+    border-left: 0;
+    border-style: solid;
+    border-image: linear-gradient(to bottom, #181818, #eee, #181818) 1 100%;
+}
+
+.resumehalf:last-child {
+    border-right: 0;
+}
+
+.resumegrid {
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+    align-items: center;
+    
+}
+
+.resumegrid img {
+    filter: grayscale(100%);
+    transition: 0.4s;
+    max-height: 95px;
+    width: auto;
+}
+
+.resumegrid img:hover {
+    scale: 1.1;
+    filter: grayscale(0%);
+    
+}
+
+.resumegrid img:hover .tooltip{
+    visibility: visible;
+    
+}
+
+.tooltip {
+    transition: 0.3s;
+    visibility: hidden;
+    font-family: 'Sree Krushnadevaraya', serif;
+    border-radius: 10px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 5px 0;
+    background-color: black;
+    color: #eee;
+    text-align: center;
+    position: absolute;
+    z-index: 3;
+    min-width: 100px;
+    box-shadow: 0px 3px 10px black;
+}

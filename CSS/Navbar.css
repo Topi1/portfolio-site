@@ -42,7 +42,7 @@
     height: 100%;
     width: 50%;
     display: flex;
-    justify-content: space-between;
+    gap: 20px;
     align-items: center;
 }
 
@@ -119,4 +119,5 @@
     height: 1.5px;
     width: 70%;
     background-color: rgb(20, 20, 20);
+    
 }
