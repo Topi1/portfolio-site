@@ -67,3 +67,10 @@
 .email:hover .lilogo {
     filter: grayscale(0);
 }
+
+
+@media only screen and (max-width: 1200px) {
+    .contactmain {
+        width: 90vw;
+    }
+}

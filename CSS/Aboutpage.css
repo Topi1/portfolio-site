@@ -69,3 +69,10 @@
     background: linear-gradient(black, black) padding-box, 
     linear-gradient(to right, rgb(63, 62, 62), rgb(20, 20, 20), black) border-box;
 }
+
+
+@media only screen and (max-width: 1200px) {
+    .secondcontainer {
+        width: 90vw;
+    }
+}

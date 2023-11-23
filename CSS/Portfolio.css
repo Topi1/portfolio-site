@@ -80,3 +80,10 @@
     width: 300px;
     aspect-ratio: 16/9;
 }
+
+
+@media only screen and (max-width: 1200px) {
+    .portfoliocontainer {
+        width: 90vw;
+    }
+}
