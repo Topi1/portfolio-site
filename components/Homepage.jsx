@@ -34,7 +34,7 @@ export default function Homepage() {
             </article>
             
           </section>
-          <section className="halfpage">
+          <section className="halfpage mepage">
             <img src={me} className='mephoto' />
           </section>
           
