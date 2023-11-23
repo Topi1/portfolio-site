@@ -8,6 +8,11 @@
     background-color: black;
     box-shadow: 0px 3px 10px black;
     color: rgb(221, 220, 220);
+
+    border-top: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+    background: linear-gradient(black, black) padding-box, 
+    linear-gradient(to right, rgb(63, 62, 62), rgb(20, 20, 20), black) border-box;
 }
 
 .portfoliocontainer {

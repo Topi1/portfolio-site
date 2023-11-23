@@ -1,11 +1,11 @@
-html, body {height: 100%; width: auto!important; overflow-x: hidden!important;} 
+html, body {height: 100%; width: auto!important; } 
 
 html {
   scroll-behavior: smooth;
 }
 
 body {
-  
+  overflow-x: hidden!important;
   background: linear-gradient(160deg, rgba(0,0,0,1) 0%, rgba(31,31,31,1) 100%);
   background-repeat: no-repeat;
   background-attachment: fixed;
