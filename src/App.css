@@ -1,4 +1,4 @@
-html, body {height: 100%; width: auto!important;} 
+html, body {height: 100%; width: auto!important; overflow-x: hidden!important;} 
 
 html {
   scroll-behavior: smooth;
