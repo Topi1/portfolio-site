@@ -73,4 +73,22 @@
     .contactmain {
         width: 90vw;
     }
+
+    .contactheader {
+        font-size: 2rem;
+    }
+
+    .contactspan {
+        font-size: 1.4rem;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+
+    .contactheader {
+        font-size: 1.8rem;
+    }
+    .contactspan {
+        font-size: 1rem;
+    }
 }

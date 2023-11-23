@@ -182,8 +182,15 @@
 }
 
 @media only screen and (max-width: 900px) {
+
+    .nameheader {
+        height: 120px;
+    }
     .nametwosec1 {
         font-size: 0.7rem;
         width: 90%;
+    }
+    .welcomeartic {
+        font-size: 1.1rem;
     }
 }
