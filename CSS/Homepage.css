@@ -196,17 +196,31 @@
 
 @media only screen and (max-width: 800px) {
 
+
+    .homePage {
+        flex-direction: column;
+    }
+    .halfpage {
+        width: 100%;
+        height: 50%;
+    }
+
+    .nameonesec1 {
+        
+        width: 40%;
+    }
     .nameonesec2 {
         font-size: 1.4rem;
-        width: 90%;
+        width: 60%;
     }
     .nametwosec1 {
         font-size: 0.6rem;
-        width: 90%;
+        width: 60%;
     }
-    .mephoto {
-        margin-top: 50%;
-        border-bottom: 4px solid rgb(20, 20, 20);
+    .nametwosec2 {
+        
+        width: 40%;
     }
+    
     
 }
