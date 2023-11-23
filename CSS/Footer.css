@@ -98,13 +98,18 @@
 
 @media only screen and (max-width: 800px) {
     .footsec1 {
-        font-size: 1.2rem;
+        font-size: 1rem;
     }
     .footsec1 h2{
-        font-size: 1.1rem;
+        font-size: 0.9rem;
     }
     .footlogo {
         height: 100px;
         width: auto;
+    }
+    .giticon {
+        height: 50px;
+        width: auto;
+        
     }
 }

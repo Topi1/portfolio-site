@@ -83,6 +83,9 @@
 
 @media only screen and (max-width: 800px) {
     
+    .secondpageheader {
+        font-size: 1.6rem;
+    }
     .aboutsection {
         font-size: 1rem;
     }

@@ -87,3 +87,10 @@
         width: 90vw;
     }
 }
+
+@media only screen and (max-width: 800px) {
+    .portfolioheader {
+        font-size: 1.6rem;
+    }
+    
+}

@@ -86,9 +86,14 @@
 @media only screen and (max-width: 800px) {
 
     .contactheader {
-        font-size: 1.8rem;
+        font-size: 1.5rem;
     }
     .contactspan {
         font-size: 1rem;
+    }
+    .lilogo {
+        height: 35px;
+        width: auto;
+        
     }
 }

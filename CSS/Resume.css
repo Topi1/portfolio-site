@@ -141,6 +141,9 @@
 }
 
 @media only screen and (max-width: 800px) {
+    .thirdpageheader {
+        font-size: 1.6rem;
+    }
     .eduarticle {
         font-size: 1rem;
     }
@@ -148,5 +151,15 @@
         
         max-height: 35px;
         width: auto;
+    }
+
+    .resumegrid {
+        
+        grid-template-columns: 1fr 1fr 1fr;
+        
+    }
+
+    .tooltip {
+        scale: 0.7;
     }
 }
