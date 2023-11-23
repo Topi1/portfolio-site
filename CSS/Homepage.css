@@ -149,9 +149,7 @@
         height: 80vh;
     }
 
-    .mepage {
-        height: 68vh;
-    }
+    
 
     .nameonesec1 {
         
@@ -205,6 +203,10 @@
     .nametwosec1 {
         font-size: 0.6rem;
         width: 90%;
+    }
+    .mephoto {
+        margin-top: 50%;
+        border-bottom: 4px solid rgb(20, 20, 20);
     }
     
 }
