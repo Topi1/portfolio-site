@@ -37,6 +37,7 @@ const Navbar = () => {
 
 
   return (
+    <>
     <nav className={color ? "navMain bg" : "navMain"}>
         <section className="navSection">
             <section className="navHalf">
@@ -57,6 +58,11 @@ const Navbar = () => {
             </section>
         </section>
     </nav>
+
+    <nav className="mobile">
+        
+    </nav>
+    </>
   )
 }
 

@@ -123,6 +123,29 @@
 }
 
 
+/*MOBILE*/
+
+.mobile {
+    
+        width: 100vw;
+        height: 110px;
+        display: none;
+        position: fixed;
+        align-items: center;
+        justify-content: center;
+        transition: 0.3s;
+        color: rgb(221, 220, 220);
+        background-color: rgb(134, 133, 133);
+        position: sticky;
+        top: 0px;
+        z-index: 5;
+        align-self: center;
+        justify-self: center;
+        
+        font-family: 'Bad Script', cursive;
+    
+}
+
 @media only screen and (max-width: 1200px) {
     .navHalf {
         width: 30%;
@@ -139,6 +162,9 @@
 @media only screen and (max-width: 800px) {
     .navMain {
         display: none;
+    }
+    .mobile {
+        display: flex;
     }
 
 }
