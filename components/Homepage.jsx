@@ -6,7 +6,7 @@ export default function Homepage() {
   return (
     <section className="homePage" id='home'>
           
-          <section className="halfpage">
+          <section className="halfpage namepage">
 
             <header className='nameheader'>
               <section className="nameone">
