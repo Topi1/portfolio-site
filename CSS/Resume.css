@@ -49,15 +49,19 @@
 }
 
 .resumegrid {
-    height: 75%;
-    width: 90%;
+    
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     
     gap: 20px;
+    margin: auto;
     
     justify-items: center;
-    align-content: center;
+    align-items: center;
+    
+    
+    align-self: center;
+    justify-self: center;
     
 }
 
@@ -78,8 +82,9 @@
 }
 
 .griddiv {
+    display: flex;
     position: relative;
-    margin: auto;
+    
     
 }
 
@@ -141,6 +146,20 @@
 }
 
 @media only screen and (max-width: 800px) {
+
+    .thirdpagespan {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 70%;
+    }
+
+    .resumehalf {
+        height: 50%;
+        width: 90%;
+        border: none;
+    }
+
     .thirdpageheader {
         font-size: 1.6rem;
     }
@@ -154,9 +173,7 @@
     }
 
     .resumegrid {
-        
-        grid-template-columns: 1fr 1fr 1fr;
-        
+        width: 200px;
     }
 
     .tooltip {
