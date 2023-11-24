@@ -128,7 +128,7 @@
 .mobile {
     
         width: 100vw;
-        height: 100px;
+        height: 80px;
         display: none;
         position: fixed;
         align-items: center;
@@ -143,13 +143,43 @@
         justify-self: center;
         
         font-family: 'Bad Script', cursive;
-    
+        background-color: rgb(29, 29, 29);
+}
+
+.mobilesec {
+    display: flex;
+    height: 100%;
+    width: 85%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.mobilelogo {
+    height: 60px;
+    width: auto;
+
+    border: 5px solid transparent;
+    background: linear-gradient(black, black) padding-box, 
+    linear-gradient(to right, rgb(63, 62, 62), rgb(20, 20, 20), black) border-box;
+}
+
+.mobilehome {
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .mobile ul {
     display: flex;
     gap: 20px;
     color: bisque;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.mobilelink {
+    color: aliceblue;
 }
 
 @media only screen and (max-width: 1200px) {

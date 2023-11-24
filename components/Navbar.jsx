@@ -60,14 +60,20 @@ const Navbar = () => {
     </nav>
 
     <nav className="mobile">
+        <section className="mobilesec">
+            <a href="#home" className='mobilehome'>
+                <img src={logo2} className='mobilelogo'/> 
+            </a>
                     
-                    <ul>
+                <ul className='mobilelist'>
                     
-                    <li><a href='#about'>About me</a></li>
-                    <li><a href='#resume'>Resume</a></li>
-                    <li><a href='#portfolio'>Portfolio</a></li>
-                    <li><a href='#contact'>Contact</a></li>
+                    <li><a href='#about' className='mobilelink'>About me</a></li>
+                    <li><a href='#resume' className='mobilelink'>Resume</a></li>
+                    <li><a href='#portfolio' className='mobilelink'>Portfolio</a></li>
+                    <li><a href='#contact' className='mobilelink'>Contact</a></li>
                 </ul>
+        </section>
+           
     </nav>
     </>
   )

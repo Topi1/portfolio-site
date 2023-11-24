@@ -12,7 +12,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 200px;
+    
     width: 50%;
     font-family: 'Sree Krushnadevaraya', serif;
     font-size: 2rem;
@@ -156,8 +156,11 @@
 
     .resumehalf {
         height: 50%;
-        width: 90%;
+        width: 100%;
         border: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 
     .thirdpageheader {
