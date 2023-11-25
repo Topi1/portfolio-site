@@ -1,4 +1,4 @@
-html, body {height: 100%; width: auto!important; } 
+html, body {margin:0;  padding: 0; height: 100%; width: auto!important; } 
 
 html {
   scroll-behavior: smooth;

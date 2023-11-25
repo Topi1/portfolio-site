@@ -2,14 +2,21 @@ import React, {useState, useEffect} from 'react'
 import "../CSS/Navbar.css"
 import logo from "../pictures/logo.png"
 import logo2 from "../pictures/logo2.png"
-import { HashLink } from 'react-router-hash-link'
+
+import open from "../icons/open.png"
+import x from "../icons/X.png"
+
 
 
 
 const Navbar = () => {
 
-    
+        const [show ,setShow] = useState(true)
         const [color, setColor] = useState(false)
+
+        function handleClick() {
+            setShow(!show)
+        }
 
         const changeColor = () => {
             
@@ -64,17 +71,27 @@ const Navbar = () => {
             <a href="#home" className='mobilehome'>
                 <img src={logo2} className='mobilelogo'/> 
             </a>
-                    
+            <img src={open} className='open' onClick={() => handleClick()}/>
+                
+        </section>
+           
+    </nav>
+
+    {!show ?
+    <div className="mobilemenu">
+        <section className="menuup">
+            <img src={x} className='close' onClick={() => handleClick()}/>
+        </section>
+        <section className="menucont">
                 <ul className='mobilelist'>
-                    
                     <li><a href='#about' className='mobilelink'>About me</a></li>
                     <li><a href='#resume' className='mobilelink'>Resume</a></li>
                     <li><a href='#portfolio' className='mobilelink'>Portfolio</a></li>
                     <li><a href='#contact' className='mobilelink'>Contact</a></li>
                 </ul>
         </section>
-           
-    </nav>
+    </div> :null}
+
     </>
   )
 }
