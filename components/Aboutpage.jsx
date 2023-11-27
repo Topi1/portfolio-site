@@ -17,7 +17,7 @@ export default function Aboutpage() {
               </section>
               <section className="aboutsection">
                 <p>25-years old, Bachelor of Business Administration, Information Technologies. Fresh graduate from Vaasa University of Applied Sciences.</p>
-                <p>Looking for entry level job as Frontend developer.</p>
+                
                 
               </section>
             </span>

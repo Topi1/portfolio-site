@@ -84,8 +84,8 @@ export default function Thirdpage() {
             <article className='eduarticle'>
               <ul>
                 <li>Vaasa University of Applied Sciences. Bachelor of Business Administration, Information Technologies. Graduated 10/2023.</li>
-                <li>Tampere University of Applied Sciences. Nurse. Discontinued.</li>
-                <li>Väinö Linnan Lukio (high scool)</li>
+                
+                
               </ul>
             </article>
           </section>

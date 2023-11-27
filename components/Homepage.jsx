@@ -29,7 +29,7 @@ export default function Homepage() {
 
             <article className="welcomeartic">
               <h1>Hello there and welcome.</h1>
-              <h1>This is my personal site.</h1>
+              
               <h1>Here you can get to know me.</h1>
             </article>
             
