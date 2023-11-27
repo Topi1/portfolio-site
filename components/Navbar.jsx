@@ -59,7 +59,7 @@ const Navbar = () => {
                     
                     <li><a href='#about'>About me</a></li>
                     <li><a href='#resume'>Resume</a></li>
-                    <li><a href='#portfolio'>Portfolio</a></li>
+                    <li><a href='#portfolio'>Projects</a></li>
                     <li><a href='#contact'>Contact</a></li>
                 </ul>
             </section>
@@ -86,7 +86,7 @@ const Navbar = () => {
                 <ul className='mobilelist'>
                     <li><a href='#about' className='mobilelink'>About me</a></li>
                     <li><a href='#resume' className='mobilelink'>Resume</a></li>
-                    <li><a href='#portfolio' className='mobilelink'>Portfolio</a></li>
+                    <li><a href='#portfolio' className='mobilelink'>Projects</a></li>
                     <li><a href='#contact' className='mobilelink'>Contact</a></li>
                 </ul>
         </section>
