@@ -16,7 +16,7 @@ export default function Aboutpage() {
                 <img src={me2} className='pic' />
               </section>
               <section className="aboutsection">
-                <p>25-years old, Bachelor of Business Administration, Information Technologies. Fresh graduate from Vaasa University of Applied Sciences.</p>
+                <p>Bachelor of Business Administration, Information Technologies. Fresh graduate from Vaasa University of Applied Sciences. My goal is to become professional Frontend developer.</p>
                 
                 
               </section>
