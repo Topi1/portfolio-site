@@ -31,6 +31,8 @@ export default function Homepage() {
               <h1>Hello there and welcome.</h1>
               
               <h1>Here you can get to know me.</h1>
+
+              <h1>You can also take a look at my projects.</h1>
             </article>
             
           </section>

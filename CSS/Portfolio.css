@@ -39,8 +39,7 @@
 .portfoliospan {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    
     width: 100%;
     height: 60%;
 }
@@ -77,39 +76,122 @@
 
 .carouselmain {
     margin: auto;
-    width: 80%;
+    width: 90%;
+    height: 100%;
+    max-height: 100%;
     
 }
-/*
-.carouseldiv {
-    height: 400px;
-    width: 100%;
-    color: rgb(221, 220, 220);
-    font-size: 1rem;
+
+.carouselmain .carousel-root {
     display: flex;
     
-    align-items: center; 
-}*/
-
-.main-slide {
+  }
+  
+  .carouselmain .carousel {
+    width: 100%; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     
-    width: 300px;
+  }
+
+  .carouselmain .carousel .slide {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    
+  }
+
+  .carouselmain .carousel .slide:hover .infoList a{
+    color: rgb(158, 73, 151);
+    
+  }
+
+  .carouselmain .carousel .slide:hover .portImg{
+    filter: grayscale(0);
+    
+  }
+
+  .carousel .carousel-slider .control-dots {
+    display: none !important;
 }
 
-.carousel .slider-wrapper {
+
+  .carouselmain .slide div {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+  }
+
+  
+
+  .carouselmain .slide div img {
+    
+    align-self: center;
+    object-fit: cover;
+    height: auto;
     width: 50%;
     
-}
+    
+    
+  }
 
-.carousel .thumb {
-    width: 55px;
-    height: 50px;
-}
+  .carouselmain .slide div .textCont{
+    font-family: 'Sree Krushnadevaraya', serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    max-height: 100%;
+    width: 50%;
+    font-size: 1rem;
+  }
 
-.carousel {
-    text-align: center;
+
+  .carouselmain .slide div .textCont .legend2 {
+    
+    font-size: 1.5rem; 
+  }
+
+  .carouselmain .slide div .textCont .infoList {
+    text-align: left;
+    font-size: 1.3rem; 
+  }
+
+  .infoList a {
+    color:rgb(221, 220, 220);
+    transition: 0.4s;
+  }
+
+  .portImg {
+    filter: grayscale(1);
+    transition: 0.4s;
+  }
+
+  .art {
+    size: 100%;
+  }
+
+  
+  .carousel .thumb {
+    width: 80px; /* Adjust width as needed */
+    height: 60px; /* Adjust height as needed */
+    margin-right: 10px; /* Adjust margin as needed */
+    align-self: flex-start;
+    
     
 }
+
+
+
+
 
 .piclink{
     display: flex;
@@ -134,6 +216,33 @@
     .portfoliocontainer {
         width: 90vw;
     }
+
+    .carouselmain .slide div {
+        
+        flex-direction: column;
+        
+      }
+
+    .carouselmain .slide div img {
+    
+        width: 50%;
+        height: 20%;
+        
+      }
+
+      .carouselmain .slide div .textCont{
+        
+        height: 80%;
+        max-height: 80%;
+        width: 100%;
+        font-size: 0.7rem;
+      }
+    
+      .carousel .thumb {
+        width: 10px; 
+        height: 30px; 
+         
+    }  
 }
 
 @media only screen and (max-width: 800px) {
