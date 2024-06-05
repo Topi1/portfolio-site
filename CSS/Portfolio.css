@@ -106,7 +106,9 @@
   }
 
   .carouselmain .carousel .slide:hover .infoList a{
-    color: rgb(158, 73, 151);
+    color: rgb(247, 130, 130);
+    
+    
     
   }
 
@@ -166,7 +168,15 @@
   .infoList a {
     color:rgb(221, 220, 220);
     transition: 0.4s;
+    text-decoration: none;
+    transition: 0.4s;
   }
+  .infoList a:hover {
+    
+    text-decoration: underline;
+  }
+
+  
 
   .portImg {
     filter: grayscale(1);
