@@ -135,6 +135,10 @@
     margin-left: 60px;
 }
 
+.welcomeartic h1 a{
+    color: rgb(220, 221, 220)
+}
+
 .mephoto {
     height: auto;
     width: 100%;

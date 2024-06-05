@@ -1,6 +1,7 @@
 import React from 'react'
 import "../CSS/Homepage.css"
 import me from "../pictures/omakuva.png"
+import resume from "../pictures/resumeTopi.pdf"
 
 export default function Homepage() {
   return (
@@ -33,6 +34,8 @@ export default function Homepage() {
               <h1>Here you can get to know me.</h1>
 
               <h1>You can also take a look at my projects.</h1>
+
+              <h1><a href="../pictures/resumeTopi.pdf" download={resume}>Download my Resume as PDF</a></h1>
             </article>
             
           </section>

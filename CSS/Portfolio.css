@@ -115,15 +115,13 @@
     
   }
 
-  .carousel .carousel-slider .control-dots {
-    display: none !important;
-}
+ 
 
 
   .carouselmain .slide div {
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: center;
     height: 100%;
     width: 100%;
@@ -224,9 +222,9 @@
       }
 
     .carouselmain .slide div img {
+        display: none;
     
-        width: 50%;
-        height: 20%;
+        
         
       }
 
@@ -235,7 +233,7 @@
         height: 80%;
         max-height: 80%;
         width: 100%;
-        font-size: 0.7rem;
+        font-size: 0.6rem;
       }
     
       .carousel .thumb {
@@ -248,6 +246,13 @@
 @media only screen and (max-width: 800px) {
     .portfolioheader {
         font-size: 1.6rem;
+    }
+
+    .portfoliospan {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 80%;
     }
     
     .halfsec h2 {
