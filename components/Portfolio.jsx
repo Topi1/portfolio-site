@@ -34,7 +34,7 @@ export default function Portfolio() {
                   <li>Live: <a href="https://topi1.github.io/mystery-game/">https://topi1.github.io/mystery-game/</a></li>
                   <li>Repository: <a href="https://github.com/Topi1/mystery-game">https://github.com/Topi1/mystery-game</a></li>
                   <li>Oldschool Point & Click adventure/horror game.</li>
-                  <li>Code: HTML, CSS, JavaScript, Phaser, Webpack</li>
+                  <li>HTML, CSS, JavaScript, Phaser, Webpack</li>
                   <li>Visuals: Aseprite, GIMP, OpenShot Video Editor</li>
                   <li>Everything but environment tilesets done by me.</li>
                   <li>Work in progress!</li>
@@ -54,7 +54,7 @@ export default function Portfolio() {
                   <li>Live: <a href="https://topi1.github.io/moonfang/">https://topi1.github.io/moonfang/</a></li>
                   <li>Repository: <a href="https://github.com/Topi1/moonfang">https://github.com/Topi1/moonfang</a></li>
                   <li>Stylish and responsive website about video games.</li>
-                  <li>Code: HTML, CSS, JSX</li>
+                  <li>HTML, CSS, JSX</li>
                   <li>Visuals: I made the logos and icons in Canva.</li>
                   <li>All the images are usable since they are from press kits.</li>
                   <li>This was my <a href="https://www.theseus.fi/handle/10024/807539">thesis project.</a></li>
@@ -73,7 +73,7 @@ export default function Portfolio() {
                   <li>Live: <a href="https://topi1.github.io/media-scroller/">https://topi1.github.io/media-scroller/</a></li>
                   <li>Repository: <a href="https://github.com/Topi1/media-scroller">https://github.com/Topi1/media-scroller</a></li>
                   <li>Simple media scroller without carousel plugin.</li>
-                  <li>Code: HTML, CSS, JavaScript</li>
+                  <li>HTML, CSS, JavaScript</li>
                   
                 </ul>
               </div>
@@ -89,7 +89,7 @@ export default function Portfolio() {
                   <li>Live: <a href="https://topi1.github.io/etch-a-sketch/">https://topi1.github.io/etch-a-sketch/</a></li>
                   <li>Repository: <a href="https://github.com/Topi1/etch-a-sketch">https://github.com/Topi1/etch-a-sketch</a></li>
                   <li>Sketching canvas with different sizes and color picker.</li>
-                  <li>Code: HTML, CSS, JavaScript</li>
+                  <li>HTML, CSS, JavaScript</li>
   
                 </ul>
               </div>

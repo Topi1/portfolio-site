@@ -35,7 +35,7 @@ export default function Homepage() {
 
               <h1>You can also take a look at my projects.</h1>
 
-              <h1><a href="../pictures/resumeTopi.pdf" download={resume}>Download my Resume as PDF</a></h1>
+              <h1><a className='pdfD' href="../pictures/resumeTopi.pdf" download={resume}>Download my Resume as PDF</a></h1>
             </article>
             
           </section>

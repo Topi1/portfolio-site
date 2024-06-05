@@ -233,11 +233,15 @@
         height: 80%;
         max-height: 80%;
         width: 100%;
-        font-size: 0.6rem;
       }
     
+      .carouselmain .slide div .textCont .infoList {
+        text-align: left;
+        font-size: 1.1rem; 
+      }
+
       .carousel .thumb {
-        width: 10px; 
+        width: 30px; 
         height: 30px; 
          
     }  
@@ -258,4 +262,9 @@
     .halfsec h2 {
         font-size: 1rem;
     }
+
+    .carouselmain .slide div .textCont .infoList {
+        text-align: left;
+        font-size: 1rem; 
+      }
 }

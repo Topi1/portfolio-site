@@ -8,6 +8,14 @@
     height: 100vh;
 }
 
+/*.homePage:hover .welcomeartic {
+    
+    color: rgb(247, 192, 142);
+    
+} */
+
+
+
 
 .halfpage {
     display: flex;
@@ -135,8 +143,13 @@
     margin-left: 60px;
 }
 
-.welcomeartic h1 a{
-    color: rgb(220, 221, 220)
+.pdfD{
+    color: rgb(220, 221, 220);
+    transition: 0.4s;
+}
+
+.pdfD:hover{
+    color: rgb(247, 130, 130);
 }
 
 .mephoto {
